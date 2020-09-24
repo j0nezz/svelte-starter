@@ -18,31 +18,28 @@
 </style>
 
 <main>
-  <h1 class="title">Bulma</h1>
-
-  <p class="subtitle">
-    Modern CSS framework based on <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox">Flexbox</a>
-  </p>
-
-  <div class="field">
-    <div class="control">
-      <input class="input" type="text" placeholder="Input" />
-    </div>
-  </div>
-
-  <div class="field">
-    <p class="control">
-      <span class="select">
-        <select>
-          <option>Select dropdown</option>
-        </select>
-      </span>
+  <div class="container">
+    <h1 class="title is-1">j0nezz Svelte Starter</h1>
+    <p class="subtitle is-4">
+      <strong>Svelte</strong>🚀 + Typescript + Sass + <a
+        href="https://bulma.io/">Bulma</a>
     </p>
-  </div>
-
-  <div class="buttons">
-    <a class="button is-danger">Primary</a>
-    <a class="button is-link">Link</a>
+    <section class="section">
+      <div class="subtitle">
+        Customize colors in the <span class="tag"> styles.scss </span> file using
+        Sass variables
+      </div>
+      <span class="tag is-black">Black</span>
+      <span class="tag is-dark">Dark</span>
+      <span class="tag is-light">Light</span>
+      <span class="tag is-white">White</span>
+      <span class="tag is-primary">Primary</span>
+      <span class="tag is-link">Link</span>
+      <span class="tag is-info">Info</span>
+      <span class="tag is-success">Success</span>
+      <span class="tag is-warning">Warning</span>
+      <span class="tag is-danger">Danger</span>
+    </section>
   </div>
 </main>
 <svelte:head>
