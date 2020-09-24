@@ -1,8 +1,8 @@
-*Looking for a shareable component template? Go here --> [sveltejs/component-template](https://github.com/sveltejs/component-template)*
 
----
+# j0nezz Svelte Starter
+## Svelte🚀 + Typescript + Sass + Bulma
 
-# svelte app
+
 
 This is a project template for [Svelte](https://svelte.dev) apps. It lives at https://github.com/sveltejs/template.
 
